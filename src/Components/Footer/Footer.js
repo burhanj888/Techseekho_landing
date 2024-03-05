@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import "../Header2/Header2.css"
 import { Link } from "react-router-dom";
-
+import tslogo from "../Header/tslogo.png"
 
 function Footer() {
 
@@ -16,7 +16,7 @@ function Footer() {
     <div class="col-xl-2 col-lg-3 col-md-6" style={{display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',}}>
-    <img src="tslogo.png" style={{width: "180px", marginBottom:"20px"}}/>
+    <img src={tslogo} style={{width: "180px", marginBottom:"20px"}}/>
     </div>
       <div class="col-xl-4 col-lg-6 col-md-6">
         <div>

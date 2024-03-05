@@ -3,6 +3,7 @@ import "./Header2.css";
 import {Link} from "react-scroll"
 import { useState, useRef} from 'react';
 import { Navbar, Nav, Modal, Button, Form } from 'react-bootstrap';
+import tslogo from './tslogo.png'
 
 import emailjs from '@emailjs/browser';
 
@@ -39,7 +40,7 @@ const SchoolHeader = () => {
           
             <div className='logo-container'>
              <a href='/'>
-             <img className='logo' src="tslogo.png" alt="tech seekho logo"/>
+             <img src={tslogo} alt="Logo" className="logo" />
              </a>
             </div>
       

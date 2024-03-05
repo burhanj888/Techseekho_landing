@@ -4,7 +4,7 @@ import {Link} from "react-scroll"
 import { useState, useRef} from 'react';
 import { Navbar, Nav, Modal, Button, Form } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
-
+import tslogo from './tslogo.png'
 const CollegeHeader = () => {
 
   const form = useRef();
@@ -39,7 +39,7 @@ const CollegeHeader = () => {
           
             <div className='logo-container'>
              <a href='/'>
-             <img className='logo' src="tslogo.png" alt="tech seekho logo"/>
+             <img src={tslogo} alt="Logo" className="logo" />
              </a>
             </div>
       

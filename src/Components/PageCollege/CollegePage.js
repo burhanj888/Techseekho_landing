@@ -16,6 +16,9 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import Footer from '../Footer/Footer';
 import { useState, useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import carousel1 from './images/college c1.png'
+import carousel2 from './images/college c2.png'
+import carousel3 from './images/college C3.png'
 
 
 
@@ -62,7 +65,7 @@ const CollegeComponents = () => {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="./images/college c1.png"
+            src={carousel1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -73,7 +76,7 @@ const CollegeComponents = () => {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="./images/college c2.png"
+            src={carousel2}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -84,7 +87,7 @@ const CollegeComponents = () => {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="./images/college c3.png"
+            src={carousel3}
             alt="Third slide"
           />
           <Carousel.Caption>

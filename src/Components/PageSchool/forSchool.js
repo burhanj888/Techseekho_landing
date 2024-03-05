@@ -82,7 +82,7 @@ export const forSchools = [
     },
     
     {
-    cover: "./images/courses/online/mobile.png",
+    cover: "./images/courses/online/Mobile.png",
     hoverCover: "./images/courses/online/o1.1.png",
     courseName: "Mobile App Development",
     course: "25 Courses",

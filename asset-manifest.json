@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Techseekho_landing/static/css/main.c829b98a.css",
+    "main.js": "/Techseekho_landing/static/js/main.5af73547.js",
+    "static/js/787.83858cd0.chunk.js": "/Techseekho_landing/static/js/787.83858cd0.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Techseekho_landing/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/College.png": "/Techseekho_landing/static/media/College.c6a42597ccc9a13b2505.png",
+    "static/media/School.png": "/Techseekho_landing/static/media/School.323770eecbd676f5f1af.png",
+    "static/media/fa-brands-400.ttf": "/Techseekho_landing/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/introImgSchl.png": "/Techseekho_landing/static/media/introImgSchl.02426a905e13bac09ee5.png",
+    "static/media/fa-solid-900.woff2": "/Techseekho_landing/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Techseekho_landing/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/tslogo.png": "/Techseekho_landing/static/media/tslogo.b10d8a13c9148ea99082.png",
+    "static/media/fa-regular-400.ttf": "/Techseekho_landing/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Techseekho_landing/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Techseekho_landing/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Techseekho_landing/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Techseekho_landing/index.html",
+    "main.c829b98a.css.map": "/Techseekho_landing/static/css/main.c829b98a.css.map",
+    "main.5af73547.js.map": "/Techseekho_landing/static/js/main.5af73547.js.map",
+    "787.83858cd0.chunk.js.map": "/Techseekho_landing/static/js/787.83858cd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c829b98a.css",
+    "static/js/main.5af73547.js"
+  ]
+}

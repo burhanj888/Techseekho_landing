@@ -1,0 +1,111 @@
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+  }
+  
+  #heading {
+    text-align: center;
+    padding: 40px 0;
+  }
+  #heading h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1eb2a6;
+    text-transform: uppercase;
+  }
+  #heading h1 {
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+  }
+  
+  .container{
+    max-width: 85%;
+    margin: auto;
+  }
+  
+  .flexSB {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sections {
+    margin-top: 2rem ;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  
+  .Row {
+    margin-top: 2rem ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+  
+  .ImageCapsCard {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+  }
+  
+  .BadgeTitle{
+    text-align: center;
+    margin: 0 0 40px;
+  }
+  
+  .card-title{
+    color: #FFFFFF;
+  }
+  
+  .card-text{
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  .card-style{
+    margin: 5rem 3rem 5rem;
+    background-color: #1eb2a6;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .col-style{
+    color: #FFFFFF;
+  }
+  
+  .col-style .h3{
+    color: #FFFFFF;
+  }
+  
+  
+  
+  .card-style2{
+    margin: 5rem 3rem 5rem;
+    background-color: #de8028;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .col-style2 {
+    color: #FFFFFF;
+  }
+  
+  footer{
+    color: #1eb2a6;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .long-card-text{
+    color: #00539C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  

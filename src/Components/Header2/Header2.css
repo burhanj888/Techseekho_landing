@@ -1,0 +1,106 @@
+.navbar-bg {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+     padding: 1rem 0;
+     z-index: 99;
+     position: relative;
+     position: sticky;
+    top: 0;
+    
+   }
+   .navbar-brand{
+     font-size: 2.5rem;
+   }
+ 
+   .navbar-brand img {
+    display: flex;
+    align-items: flex-start;
+   }
+   .navbar li {
+    color:rgb(0, 34, 79);
+     padding: 0 1rem;
+     font-weight: 500;
+   }
+ 
+   .navbar li a:hover {
+        background-color: rgb(0, 34, 79);
+       color: white;
+       border-radius: 4px;
+   }
+   .btn-style{
+     width: 7rem;
+     height: 3rem;
+     border-radius: 2rem;
+     background-color:  #e3f2fd;
+     text-transform: capitalize;
+     
+   }
+   .btn-style :first-child {
+     margin-right: 2rem;
+   }
+   /* .btn-primary {
+     width: 7rem;
+     height: 3rem;
+     border-radius: 2rem;
+     text-transform: capitalize;
+     margin-right: 2rem;
+ 
+   } */
+
+   .call-button {
+    margin: 10px 0px;
+   }
+
+   .icon {
+    padding: 5px 7px;
+    font-size: 25px;
+    width: 40px; /* Adjust the width to fit your icon */
+    height: 40px; /* Adjust the height to fit your icon */
+    border: 2px solid black; /* Border properties */
+    border-radius: 10px; /* For circular icons */
+    transition: border-color 0.3s; /* Smooth transition on hover */
+    color: black;
+    margin: 10px;
+  }
+  
+  .icon:hover {
+    border-color: rgb(2, 105, 0); /* Change the border color on hover */
+    color: rgb(2, 105, 0);
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: 0062cc;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  .social-links a:hover {
+    color: rgb(0, 166, 255);
+  }
+
+  /* styles.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

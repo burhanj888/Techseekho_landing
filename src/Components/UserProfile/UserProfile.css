@@ -1,0 +1,70 @@
+
+
+.user-profile-table {
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.user-profile-table td {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+    border: none;  /* Hide cell borders */
+}
+
+/* Optional: Add some spacing between rows for better readability */
+.user-profile-table tr + tr {
+    border-top: 1px solid #f0f0f0;
+}
+
+
+.user-profile-card-header {
+    background-color: #ff8f1fc0;
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+
+.change-password-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 80%; /* Set a maximum width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.change-password-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.change-password-form-control {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.change-password-button {
+    background-color: #007BFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.change-password-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,471 @@
+.carousel-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 80px auto;
+  }
+  
+  .carousel-image {
+    height: 500px;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    border-radius: 20px;
+  }
+  
+  .carousel-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-description {
+    font-size: 16px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    bottom: 0;
+  }
+  
+  /* Styling the carousel indicators */
+  .carousel-indicators li {
+    background-color: #888;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+
+  
+  
+  .card-style .card-title {
+    margin-bottom: 20px;
+  }
+  
+  .card-style .card-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-style .card-text {
+    color: #777;
+  }
+  
+  .card-style .col-style {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .card-style .col-style:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-style .BenefitsforSchoolsicon {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-style h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-style p {
+    font-size: 14px;
+    color: #777;
+  }
+
+  /* Custom CSS for ComponentWithCards */
+
+.school-card-container {
+    margin-top: 20px;
+    max-width: 85%;
+    flex-wrap: wrap;
+  }
+  
+  .school-card-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1eb2a6;
+  }
+
+  .school-card-container h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1eb2a6;
+  }
+  
+  .school-card {
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+    background-color: #1eb2a6;
+    justify-content: space-between;
+    text-align: center;
+    height:350px;
+    margin-top: 40px;
+    max-height: 400px;
+   
+  }
+  
+  .school-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .school-card-title {
+    font-weight: bold;
+  }
+  
+  .school-card-text {
+    margin-top: 10px;
+  }
+  
+  
+
+.block {
+    padding: 70px 0;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .card-title{
+    color: #FFFFFF;
+  }
+  
+  .card-text{
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  .card-style{
+    margin: 5rem 3rem 5rem;
+    background-color: #7980ff;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .col-style{
+    color: #FFFFFF;
+  }
+  
+  .col-style .h3{
+    color: #FFFFFF;
+  }
+  
+  
+  
+  .card-style2{
+    margin: 5rem 3rem 5rem;
+    background-color: #de8028;
+    justify-content: space-between;
+    text-align: center;
+    
+  
+
+  }
+  
+  .col-style2 {
+    color: #FFFFFF;
+  }
+  
+  .title-holder {
+    text-align: center;
+    margin: 0 0 40px;
+  }
+  
+  .title-holder h2 {
+    margin: 0 0 5px;
+    text-transform: uppercase;
+  }
+  
+  .title-holder .subtitle {
+    color: #999999;
+  }
+
+  .meeting-form{
+
+    margin: 10px 20rem 5rem;
+    background-color: #f4f4f4;
+
+  }
+
+  .text-center{
+
+    margin: 5rem 3rem 5rem;
+    background-color: #d5f4e6;
+
+  }
+  
+  
+
+ .BenefitsforSchoolsicon {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: #FCF6F5;
+    margin: 0 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+  }
+
+  .Benefits-for-Students-block .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: #f64b4b;
+    margin: 10px 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+  }
+  
+
+  .Benefits-for-Students-block .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: #f64b4b;
+    margin: 10px 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+  }
+
+  .Benefits-for-Students-block .icon .fas {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2;
+  }
+  
+
+  .Benefits-for-Students-block .holder {
+    transition: all 0.3s linear;
+  }
+
+  .container_courses {
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .online {
+    text-align: center;
+    margin-top: 80px;
+  }
+  .online .box {
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    background-color: #fff;
+    padding: 30px 20px;
+    transition: 0.5s;
+    width: 160px;
+    height: 240px;
+  }
+  .online .img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+  }
+  .online img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .online h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+  .online span {
+    background-color: #f8f8f8;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1eb2a6;
+    border-radius: 5px;
+  }
+  .online .box .show {
+    opacity: 0;
+  }
+  .online .box:hover {
+    background-color: #1eb2a6;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .online .box:hover .show {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .online .box:hover h1 {
+    color: #fff;
+  }
+
+  .grid3 {
+    
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    flex-direction:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .forschool-custom-card {
+    margin: 20px 100px 20px 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .for-schools-header{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .forschool-card-content {
+    padding: 20px;
+  }
+  
+  .forschool-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0062cc;
+  }
+  
+  .forschool-card-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .forschool-enquiry-form {
+    padding: 20px;
+  }
+  
+  .forschool-enquiry-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .forschool-enquiry-form .form-label {
+    font-weight: bold;
+  }
+  
+  .forschool-submit-btn {
+    width: 100%;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .forschool-submit-btn:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .forschool-submit-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+
+  .contact-button {
+    display: inline-block;
+    padding: 10px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    /* background: linear-gradient(to right, #007bff, #ff8c00); */
+    background: #ff8f1f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 20px;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);
+  }
+
+
+  @media (max-width: 1200px) {
+    .online{
+        flex-direction:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .grid3 {
+        flex-direction:flex;
+      justify-content: center;
+      align-items: center;
+        display:flex;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+      }
+
+      .card-style{
+        margin: 5rem 3rem 5rem;
+        background-color: #7980ff;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      
+  }
+  
+  @media (max-width: 600px) {
+    
+
+      .contact-button {
+        display: flex;
+        padding: 10px 10px;
+        font-size: 15px;
+        
+      }
+      .forschool-custom-card {
+        margin: 20px 20px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .online .box {
+        box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+        background-color: #fff;
+        padding: 20px 12px;
+        transition: 0.5s;
+        width: 130px;
+        height: 200px;
+      }
+      .online .img {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        position: relative;
+      }
+      .online img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .online h1 {
+        font-weight: 500;
+        font-size: 18px;
+        
+      }
+    
+  }
